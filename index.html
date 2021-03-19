@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
+	<head>
         
-        <title>dear journal,</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="functions.js"></script>
+		<title>dear journal,</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="functions.js"></script>
 
-        <style>
-            body{
-                left-margin: 20px;
-		right-margin: 20px;
-		text-align: left;
-		color: #ffffff;
+		<style>
+			body{
+				left-margin: 20px;
+				right-margin: 20px;
+				text-align: left;
+				color: #ffffff;
 	
-            }
-	/* unvisited link */
-	    a:link {
-		  color: #ffffff;
-		}
+			}
+			/* unvisited link */
+			a:link {
+				color: #ffffff;
+				text-decoration: none;
+			}
 
-		/* visited link */
-		a:visited {
-		  color: #ffffff;
-		}
+			/* visited link */
+			a:visited {
+				color: #ffffff;
+				text-decoration: none;
+			}
 
-		/* mouse over link */
-		a:hover {
-		  color: #dddddd;
-		}
+			/* mouse over link */
+			a:hover {
+				color: #dddddd;
+				text-decoration: none;
+			}
 
-		/* selected link */
-		a:active {
-		  color: #ffffff;
-		}
-	    #footer{
-		font-size: 5px;
-		text-align: right;
-		bottom: 0;
-	    }
-            .audioplayer{
-                display: flex; /* create a flex box*/
-                flex-direction: column; /* put flexbox children on a vertical axis*/
-                justify-content: center; /* align items vertically */
-                align-items: center;     /* align items horizontally */
-                height: 75vh; /*vh is the height of your current window(viewport) divided into 100 units - viewport height!*/
+			/* selected link */
+			a:active {
+				color: #ffffff;
+				text-decoration: none;
+			}
+			#footer{
+				font-size: 5px;
+				text-align: right;
+				bottom: 0;
+			}
+			.audioplayer{
+				display: flex; /* create a flex box*/
+				flex-direction: column; /* put flexbox children on a vertical axis*/
+				justify-content: center; /* align items vertically */
+				align-items: center;     /* align items horizontally */
+				height: 75vh; /*vh is the height of your current window(viewport) divided into 100 units - viewport height!*/
+			}
+		</style>
+	</head>
 
-    		filter: contrast(100%) invert(0%);
-
-            }
-        </style>
-
-    </head>
- 
-
-    <body>
-	<h1>dear journal,</h1>
-        <div class="audioplayer">
-            <audio id="audio" controls> 
-                <script>getAudio()</script>
-		your browser doesn't support the audio element :(
-        </div>
-	<p id="footer">I made this project out of a deep desire to connect with people. I hope it does that for you too. I've collected audio clips from over 40 different people that play at random each time the website is loaded. If you wanna submit your own audio clip for me to add, click <a href="https://forms.gle/SnQLUrxVcihPoeMv7">this link</a> for an anonymous form.</p>
-        
-    </body>
-
+	<body>
+		<h1>dear journal,</h1>
+		<div class="audioplayer">
+			<audio id="audio" controls> 
+				<script>getAudio()</script>
+				your browser doesn't support the audio element :(
+			</audio>
+		</div>
+		<p id="footer"><3, Amelia. I made this project out of a deep desire to connect with people. I hope it does that for you too. I've collected audio clips from over 40 different people that play at random each time the website is loaded. If you wanna submit your own audio clip for me to add, click <a href="https://forms.gle/SnQLUrxVcihPoeMv7">this link</a> for an anonymous form.</p>
+        </body>
+			
 </html>
