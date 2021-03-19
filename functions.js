@@ -26,8 +26,8 @@ function getAudio(){
 
 function getStuff(){
 	var myarray = [{audio: "1.mp3",	color: "#176619"}, 
-  {audio: "2.mp3",	color: "#cf9417"}, 
-  {audio: "3.mp3",	color: "#0b2073"}, 
+	{audio: "2.mp3",	color: "#cf9417"}, 
+	{audio: "3.mp3",	color: "#0b2073"}, 
   {audio: "4.mp3",	color: "#8f1ec7"}, 
   {audio: "5.mp3",	color: "#eb6426"}, 
   {audio: "6.mp3",	color: "#ba1c46"}, 
@@ -63,8 +63,8 @@ function getStuff(){
   {audio: "36.mp3",	color: "#8fbdb1"}, 
   {audio: "37.mp3",	color: "#ffd86b"}, 
   {audio: "38.mp3",	color: "#ff936b"}, 
-  {audio: "39.mp3",	color: "#7480cf",}, 
-  {audio: "40.mp3",	color: "#31c4cc",}, 
+  {audio: "39.mp3",	color: "#7480cf"}, 
+  {audio: "40.mp3",	color: "#31c4cc"}, 
   {audio: "41.mp3",	color: "#210542"}, 
   {audio: "42.mp3",	color: "#b0b593"}, 
   {audio: "43.mp3",	color: "#635ec4"}, 
