@@ -71,8 +71,9 @@ function getStuff(){
   {audio: "44.mp3",	color: "#ffa305"}, 
   {audio: "45.mp3",	color: "#2abf40"}, 
   {audio: "46.mp3",	color: "#e62e2e"}, 
-  {audio: "47.mp3",	color: "#6637a3"}, 
-  {audio: "48.mp3",	color: "#763b92"}]; // anna
+  {audio: "47.mp3",	color: "#6637a3"},
+  {audio: "48.mp3",	color: "#763b92"}, 
+  {audio: "49.mp3",	color: "#ed582b"}];
 
 	var rand = Math.floor(Math.random() * (myarray.length));
 	document.write('<source src="library/' + myarray[rand].audio + '" type="audio/mp3">');
