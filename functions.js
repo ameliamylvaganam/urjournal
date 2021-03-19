@@ -19,7 +19,7 @@ function getStuff(){
 	{audio: "10.mp3",	color: "#6eb1ff"},
 	{audio: "11.mp3",	color: "#faec52"}, 
 	{audio: "12.mp3",	color: "#fa5266"}, 
-	{audio: "happy birthday to me.mp3",	color: "#6370ba"}, // meant to be william, filling with my own for now
+	{audio: "51.mp3",	color: "#6370ba"}, // meant to be william, filling with my own for now
 	{audio: "14.mp3",	color: "#ab371d"}, 
 	{audio: "15.mp3",	color: "#c29eff"}, 
 	{audio: "16.mp3",	color: "#d6638b"}, 
@@ -54,10 +54,11 @@ function getStuff(){
 	{audio: "45.mp3",	color: "#2abf40"}, 
 	{audio: "46.mp3",	color: "#e62e2e"}, 
 	{audio: "47.mp3",	color: "#6637a3"},
-	{audio: "48.mp3",	color: "#763b92"},
+	{audio: "48.mp3",	color: "#f08e1f"},
 	{audio: "49.mp3",	color: "#ed582b"}, 
 	{audio: "water.mp3",	color: "#8bc9bd"}, 
-	{audio: "50.mp3",	color: "#9a36ff"}];
+	{audio: "50.mp3",	color: "#9a36ff"}, 
+	{audio: "51.mp3",	color: "#81c983"}];
 
 	var rand = Math.floor(Math.random() * (myarray.length));
 	document.write('<source src="library/' + myarray[rand].audio + '" type="audio/mp3">');
