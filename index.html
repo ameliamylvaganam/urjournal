@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <title>dear journal,</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="functions.js"></script>
+
+        <style>
+            body{
+                left-margin: 20px;
+		right-margin: 20px;
+		text-align: left;
+		color: #ffffff;
+	
+            }
+	    p{
+		font-size: 5px;
+		text-align: right;
+	    }
+            .audioplayer{
+                display: flex; /* create a flex box*/
+                flex-direction: column; /* put flexbox children on a vertical axis*/
+                justify-content: center; /* align items vertically */
+                align-items: center;     /* align items horizontally */
+                height: 75vh; /*vh is the height of your current window(viewport) divided into 100 units - viewport height!*/
+
+    		filter: contrast(100%) invert(0%);
+
+            }
+        </style>
+
+    </head>
+ 
+
+    <body>
+	<h1>dear journal,</h1>
+        <div class="audioplayer">
+            <audio id="audio" controls> 
+                <script>getAudio()</script>
+		your browser doesn't support the audio element :(
+        </div>
+	<p>hey if you're reading this that means you probably have pretty good vision. good for you keep those eyes intact. I made this project out of a deep desire to connect with people. I hope it does that for you.</p>
+        
+    </body>
+
+</html>
