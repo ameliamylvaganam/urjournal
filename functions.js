@@ -61,7 +61,8 @@ function getStuff(){
 	{audio: "51.mp3",	color: "#81c983"},
 	{audio: "52.mp3",	color: "#ad0900"},
 	{audio: "53.mp3",	color: "#9fa848"},
-	{audio: "54.mp3",	color: "#3a694d"}];
+	{audio: "54.mp3",	color: "#3a694d"},
+	{audio: "55.mp3",	color: "#dd7d8d"}];
 
 	var rand = Math.floor(Math.random() * (myarray.length));
 	document.write('<source src="library/' + myarray[rand].audio + '" type="audio/mp3">');
